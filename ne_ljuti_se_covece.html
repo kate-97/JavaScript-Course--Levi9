@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title > Ne ljuti se čoveče </title>
+        <meta charset = 'UTF-8'/>
+        <link rel = "stylesheet" href = "style.css" />
+        <script>/* TODO:
+            function drawFields(){
+                var element = document.getElementById("main_game_table")
+                for(var i = 0; i < 4; i++)
+                    var newField = document.createElement("div").setAttribute("class", "field").setAttribute("style","top: 47%; left: 170px")
+                    element.appendChild(newField)
+            }
+
+            drawFields()*/
+        </script>
+    </head>
+
+    <body>
+        <div id = "container">
+            <h1 class = "title_style"> Ne ljuti se čoveče </h1>
+            <div id = "main_game_table" class = "game_table">
+                <div class = "field" style = "top: 100px; left: 100px; background-color: red;"></div> 
+                <div class = "field" style = "top: 100px; left: 160px; background-color: red;"></div> 
+                <div class = "field" style = "top: 160px; left: 100px; background-color: red;"></div> 
+                <div class = "field" style = "top: 160px; left: 160px; background-color: red;"></div> 
+
+                <div class = "field" style = "top: 100px; right: 100px; background-color:deepskyblue;"></div> 
+                <div class = "field" style = "top: 100px; right: 160px; background-color: deepskyblue;"></div> 
+                <div class = "field" style = "top: 160px; right: 100px; background-color: deepskyblue;"></div> 
+                <div class = "field" style = "top: 160px; right: 160px; background-color: deepskyblue;"></div> 
+
+                <div class = "field" style = "bottom: 100px; left: 100px; background-color:orange;"></div> 
+                <div class = "field" style = "bottom: 100px; left: 160px; background-color: orange;"></div> 
+                <div class = "field" style = "bottom: 160px; left: 100px; background-color: orange;"></div> 
+                <div class = "field" style = "bottom: 160px; left: 160px; background-color: orange;"></div> 
+
+                <div class = "field" style = "bottom: 100px; right: 100px; background-color:olivedrab;"></div> 
+                <div class = "field" style = "bottom: 100px; right: 160px; background-color: olivedrab;"></div> 
+                <div class = "field" style = "bottom: 160px; right: 100px; background-color: olivedrab;"></div> 
+                <div class = "field" style = "bottom: 160px; right: 160px; background-color: olivedrab;"></div> 
+
+                <div class = "field" style = "top: 47%; left: 220px; background-color: red;"></div> 
+                <div class = "field" style = "top: 47%; left: 280px; background-color: red;"></div> 
+                <div class = "field" style = "top: 47%; left: 340px; background-color: red;"></div> 
+                <div class = "field" style = "top: 47%; left: 400px; background-color: red;"></div> 
+
+                <div class = "field" style = "left: 47%; top: 220px; background-color: deepskyblue;"></div> 
+                <div class = "field" style = "left: 47%; top: 280px; background-color: deepskyblue;"></div> 
+                <div class = "field" style = "left: 47%; top: 340px; background-color: deepskyblue;"></div> 
+                <div class = "field" style = "left: 47%; top: 400px; background-color: deepskyblue;"></div> 
+
+                <div class = "field" style = "top: 47%; right: 220px; background-color: olivedrab;"></div> 
+                <div class = "field" style = "top: 47%; right: 280px; background-color: olivedrab;"></div> 
+                <div class = "field" style = "top: 47%; right: 340px; background-color: olivedrab;"></div> 
+                <div class = "field" style = "top: 47%; right: 400px; background-color: olivedrab;"></div> 
+
+                <div class = "field" style = "left: 47%; bottom: 220px; background-color: orange;"></div> 
+                <div class = "field" style = "left: 47%; bottom: 280px; background-color: orange;"></div> 
+                <div class = "field" style = "left: 47%; bottom: 340px; background-color: orange;"></div> 
+                <div class = "field" style = "left: 47%; bottom: 400px; background-color: orange;"></div> 
+                
+                <div class = "field" style = "top: 460px; left: 100px;"></div>
+                <div class = "field" style = "top: 400px; left: 100px; background-color: red;"></div>
+                <div class = "field" style = "top: 400px; left: 160px;"></div>
+                <div class = "field" style = "top: 400px; left: 220px;"></div>
+                <div class = "field" style = "top: 400px; left: 280px;"></div>
+                <div class = "field" style = "top: 400px; left: 340px;"></div>
+                <div class = "field" style = "top: 400px; left: 400px;"></div>
+                <div class = "field" style = "top: 340px; left: 400px;"></div>
+                <div class = "field" style = "top: 280px; left: 400px;"></div>
+                <div class = "field" style = "top: 220px; left: 400px;"></div>
+                <div class = "field" style = "top: 160px; left: 400px;"></div>
+                <div class = "field" style = "top: 100px; left: 400px;"></div>
+                <div class = "field" style = "top: 100px; left: 460px;"></div>
+
+                <div class = "field" style = "right: 400px; top: 100px; background-color: deepskyblue;"></div>
+                <div class = "field" style = "right: 400px; top: 160px;"></div>
+                <div class = "field" style = "right: 400px; top: 220px;"></div>
+                <div class = "field" style = "right: 400px; top: 280px;"></div>
+                <div class = "field" style = "right: 400px; top: 340px;"></div>
+                <div class = "field" style = "right: 400px; top: 400px;"></div>
+                <div class = "field" style = "right: 340px; top: 400px;"></div>
+                <div class = "field" style = "right: 280px; top: 400px;"></div>
+                <div class = "field" style = "right: 220px; top: 400px;"></div>
+                <div class = "field" style = "right: 160px; top: 400px;"></div>
+                <div class = "field" style = "right: 100px; top: 400px;"></div>
+                <div class = "field" style = "right: 100px; top: 460px;"></div>
+
+                <div class = "field" style = "right: 400px; bottom: 100px; "></div>
+                <div class = "field" style = "right: 400px; bottom: 160px;"></div>
+                <div class = "field" style = "right: 400px; bottom: 220px;"></div>
+                <div class = "field" style = "right: 400px; bottom: 280px;"></div>
+                <div class = "field" style = "right: 400px; bottom: 340px;"></div>
+                <div class = "field" style = "right: 400px; bottom: 400px;"></div>
+                <div class = "field" style = "right: 340px; bottom: 400px;"></div>
+                <div class = "field" style = "right: 280px; bottom: 400px;"></div>
+                <div class = "field" style = "right: 220px; bottom: 400px;"></div>
+                <div class = "field" style = "right: 160px; bottom: 400px;"></div>
+                <div class = "field" style = "right: 100px; bottom: 400px; background-color: olivedrab;"></div>
+
+                <div class = "field" style = "bottom: 400px; left: 100px; "></div>
+                <div class = "field" style = "bottom: 400px; left: 160px;"></div>
+                <div class = "field" style = "bottom: 400px; left: 220px;"></div>
+                <div class = "field" style = "bottom: 400px; left: 280px;"></div>
+                <div class = "field" style = "bottom: 400px; left: 340px;"></div>
+                <div class = "field" style = "bottom: 400px; left: 400px;"></div>
+                <div class = "field" style = "bottom: 340px; left: 400px;"></div>
+                <div class = "field" style = "bottom: 280px; left: 400px;"></div>
+                <div class = "field" style = "bottom: 220px; left: 400px;"></div>
+                <div class = "field" style = "bottom: 160px; left: 400px;"></div>
+                <div class = "field" style = "bottom: 100px; left: 400px; background-color: orange;"></div>
+                <div class = "field" style = "bottom: 100px; left: 460px; "></div>
+
+            </div>
+        </div>
+    </body>
+</html>
