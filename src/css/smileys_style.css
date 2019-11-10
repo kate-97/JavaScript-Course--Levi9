@@ -1,0 +1,32 @@
+.smiley {
+    position: absolute;
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    z-index: 30;
+}
+
+.eye {
+    position: absolute;
+    width: 7px;
+    height: 10px;
+    border-radius: 10px;
+
+    border: 1px solid black;
+}
+
+.smile {
+    position: absolute;
+
+    width: 15px;
+    height: 10px;
+    z-index: -20;
+
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+    border-radius: 20px;
+}

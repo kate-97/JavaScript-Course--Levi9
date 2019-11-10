@@ -1,0 +1,19 @@
+#status {
+    position: absolute;
+    top: 250px;
+    left: 70px;
+
+    width: 200px;
+    height: 200px;
+
+    border: 1px dotted grey;
+    padding: 5px;
+    background-color: rgb(228, 225, 242);
+}
+
+#status > div {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: grey;
+}

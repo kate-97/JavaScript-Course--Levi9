@@ -1,0 +1,33 @@
+
+#container {
+    margin: auto;
+    position: relative;
+    width: 1200px;
+    height: 800px;
+    text-align: center;
+    background-color: rgb(206, 202, 232);
+}
+
+h1 {
+    position: relative;
+    top: 70px;
+
+    margin: auto;
+    font-size: 50px;
+    font-style: italic;
+    color: grey;
+}
+
+#game-space {
+    margin: auto;
+    position: relative;
+    top: 170px;
+
+    width: 452.5px;
+    height: 455px;    
+    border: 2px solid rgb(179, 0, 71);
+    background-color: white;
+}
+
+
+
