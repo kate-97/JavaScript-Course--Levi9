@@ -1,3 +1,5 @@
+/* Utility JS file with utility methods for drawing smileys. */
+
 var eye = function(x, y) {
     var eye = document.createElement("div");
     eye.setAttribute("class", "eye");

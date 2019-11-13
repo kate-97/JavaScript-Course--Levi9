@@ -26,7 +26,27 @@ h1 {
     width: 452.5px;
     height: 455px;    
     border: 2px solid rgb(179, 0, 71);
-    background-color: white;
+    background-color: white; 
+}
+
+.special_game_state{
+    position: absolute;
+    top: 400px;
+    left: 300px;
+
+    transform: rotate(-20deg);
+    z-index: 100;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+
+#game_over {
+    color: hotpink;
+}
+
+#game_paused {
+    color: rgb(72, 190, 63);
 }
 
 

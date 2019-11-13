@@ -8,6 +8,10 @@
     z-index: 30;
 }
 
+.smiley:hover{
+    cursor: pointer;
+}
+
 .eye {
     position: absolute;
     width: 7px;
@@ -15,6 +19,8 @@
     border-radius: 10px;
 
     border: 1px solid black;
+    background-color: whitesmoke;
+    z-index: 20;
 }
 
 .smile {
