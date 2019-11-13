@@ -15,6 +15,6 @@
    ```
       $ git clone "https://github.com/kate-97/JavaScript-Course--Levi9"
    ```
-   Open file named by "color_tap.html" in some browser (*GoogleChrome*, *Firefox*, ...) and you can to play. <br/><br/>
+   Open file named by "color_tap.html" in some browser (*GoogleChrome*, *Firefox*, ...) and you are ready. <br/><br/>
    
    :relaxed: :relaxed: :relaxed: :relaxed: :relaxed: ***Enjoy playing!*** :relaxed: :relaxed: :relaxed: :relaxed: :relaxed: 
