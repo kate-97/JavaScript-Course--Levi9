@@ -1,0 +1,29 @@
+{
+  "name": "javascript-course--levi9",
+  "version": "1.0.0",
+  "description": "*Welcome!* <br/><br/> <img width = 600px src = \"image/game_image.png\" />",
+  "main": "docker-entrypoint-initdb.d/mongo-init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kate-97/JavaScript-Course--Levi9.git"
+  },
+  "author": "Milena Stojic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kate-97/JavaScript-Course--Levi9/issues"
+  },
+  "homepage": "https://github.com/NevenaSoldat/matf-bricks-smash-in-javascript#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
+
+
