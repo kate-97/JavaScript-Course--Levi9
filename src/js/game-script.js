@@ -49,6 +49,8 @@ function game_init () {
             document.getElementById("container").appendChild(game_over);
             isGameOver = true;
             isStarted = false;
+
+            send_result(ime,framesWon)
         }
         
         else if (isGame) // Anyway, if it isn't pause, we are calling this callback again (for same period)
@@ -183,10 +185,11 @@ function game_init () {
     }
     };
 
-
+ucitajIme()
 //  Now we have initialized data and methods for game, registered button - callbacks and now game can to start. Enjoy! :)
 party = game_init();
 startButton.onclick = party.start;
 pauseButton.onclick = party.pause;
+
 
 
